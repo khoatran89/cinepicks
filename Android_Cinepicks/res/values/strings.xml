@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CinePicks</string>
+    <string name="movie_details_activity_title">Chi tiết</string>
+    <string name="about_activity_title">Hỗ trợ</string>
+
+    <string name="menu_settings">Tùy chỉnh</string>
+    <string name="menu_support">Hỗ trợ</string>
+
+    <string name="now_showing_title">Đang chiếu</string>
+    <string name="upcoming_title">Sắp chiếu</string>
+    <string name="about_title">Tác giả</string>
+    <string name="movie_info_title">Thông tin</string>
+    <string name="movie_trailer_title">Trailer</string>
+    <string name="movie_showtimes_title">Suất chiếu</string>
+
+    <string name="google_developer_key">AIzaSyDSLetdjvV3wbqOqVPK0qlWaYTK9BXboiM</string>
+
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <string name="no_trailer_caption">Chưa có trailer</string><string name="choose_cinema_title">Chọn rạp</string>
+
+    <string name="no_showtime_result">Không có suất chiếu</string>
+    <string name="get_showtime_error">Có lỗi khi tải dữ liệu</string>
+
+    <string name="network_error_title">Không có kết nối mạng</string>
+    <string name="network_error_message">Chương trình không hoạt động nếu chưa kết nối mạng. Bạn vui lòng kiểm tra lại kết nối.</string>
+    <string name="network_error_ok_button">OK</string>
+
+    <string name="feedback_button">Phản hồi</string>
+
+</resources>

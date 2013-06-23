@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="3dp"
+                  android:layout_alignParentLeft="true"
+                  android:background="@drawable/image_bg"
+                  android:layout_marginRight="5dp">
+
+        <ImageView
+                android:id="@+id/list_image"
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/thumbnail"/>
+
+    </LinearLayout>
+
+    <!-- Title Of Movie-->
+    <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/thumbnail"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:text="12 con giáp (Digital)"
+            android:textColor="#040404"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+    <!-- Director Name -->
+    <TextView
+            android:id="@+id/director"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:textColor="#343434"
+            android:textSize="12dp"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:text="Đạo diễn: Jackie Chan"/>
+
+    <!-- Duration -->
+    <TextView
+            android:id="@+id/duration"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/director"
+            android:textColor="#343434"
+            android:textSize="12dp"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:text="Thời lượng: 2 giờ"/>
+
+    <!-- Genre -->
+    <TextView
+            android:id="@+id/genre"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/duration"
+            android:textColor="#343434"
+            android:textSize="12dp"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:text="Thể loại: Hành Động, Phiêu Lưu"/>
+
+
+    <!-- Rightend Arrow -->
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/arrow"
+               android:layout_alignParentRight="true"
+               android:layout_centerVertical="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lập trình và thiết kế bởi tvkkpt"
+        android:id="@+id/textView"
+        android:layout_gravity="center|left"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Nếu bạn phát hiện ra lỗi của chương trình hoặc yêu cầu tính năng mới xin vui lòng liên hệ bằng cách chọn nút bên dưới."
+        android:id="@+id/textView1"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/feedback_button"
+        android:id="@+id/feedbackButton"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
